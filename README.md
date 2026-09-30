@@ -18,3 +18,6 @@ Live site: https://hetman.webart.work
 
 ## Notes
 The page notes that current prices and room availability should be verified on the official booking site, and that sauna booking conditions should be confirmed directly with the hotel.
+
+## Forms
+Live forms send requests to HotelOS (hotelId `kp-hetman`): `stay-request`, `sauna-request` (Finnish sauna). Phone is the only required field.

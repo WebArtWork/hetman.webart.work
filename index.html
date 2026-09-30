@@ -37,12 +37,15 @@
     .gallery{background:var(--green);color:white}.gallery .eyebrow{color:#d8ba7d}.gallery-grid{display:grid;grid-template-columns:1.25fr .75fr 1fr;grid-template-rows:270px 270px;gap:10px}.gallery-grid img:first-child{grid-row:span 2}.gallery-grid img:nth-child(4){grid-column:span 2}.map{height:500px;align-self:stretch;background:var(--ivory);overflow:hidden}.contact address{margin:24px 0;font-style:normal;color:var(--muted)}.contact>a:not(.btn){display:block;margin:8px 0;color:var(--burg)}
     .final{padding:130px 0;text-align:center;background:linear-gradient(#142019c4,#142019c4),url('https://hetman-hotel.com/wp-content/uploads/2023/10/A19I3041-scaled.jpg') center/cover;color:white}.final .eyebrow{color:#dfc28a}.final .title,.final .lead{margin-left:auto;margin-right:auto}.final .lead{color:#e5dfd7}.final .actions{justify-content:center;margin-top:30px}.final small{display:block;margin-top:20px;letter-spacing:.12em;text-transform:uppercase;color:#d5cec7}
     footer{padding:68px 0 92px;background:#151c18;color:#bec4bf}.foot{display:grid;grid-template-columns:1.5fr repeat(4,1fr);gap:36px}.foot h4{color:#d8ba7d;font-size:.7rem;letter-spacing:.13em;text-transform:uppercase}.foot a{display:block;margin:8px 0;font-size:.82rem}.foot a:hover{color:#d8ba7d}.foot-brand p{font-size:.84rem}.copyright{margin-top:42px;padding-top:18px;border-top:1px solid #3a443e;font-size:.74rem}.mobile-cta{display:none}
+    .request{background:var(--paper)}.request.alt{background:var(--ivory)}.request-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:75px;align-items:start}.request .title{font-size:clamp(2.4rem,4.8vw,4.2rem)}.request-phone{display:inline-block;margin-top:26px;font:500 1.6rem var(--serif);color:var(--burg)}.request-phone:hover{color:var(--green)}.request-form{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px 16px;padding:38px;background:var(--ivory);border:1px solid var(--line)}.request.alt .request-form{background:var(--paper)}.field{display:grid;gap:7px;align-content:start;min-width:0;font-size:.7rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase}.field.full{grid-column:1/-1}.field small{font-size:.78rem;font-weight:400;letter-spacing:0;text-transform:none;color:var(--muted)}.field input,.field select,.field textarea{display:block;width:100%;max-width:100%;min-width:0;min-height:50px;padding:12px 15px;border:1px solid var(--line);border-radius:0;background:#fff;color:var(--ink);font:400 1rem var(--sans);letter-spacing:0;text-transform:none}.field textarea{min-height:110px;resize:vertical}.field input:focus,.field select:focus,.field textarea:focus{outline:2px solid var(--gold);outline-offset:1px}.field [aria-invalid=true]{border-color:var(--burg);box-shadow:0 0 0 1px var(--burg)}[data-error-for]{font-size:.8rem;font-weight:600;letter-spacing:0;text-transform:none;color:var(--burg)}[data-error-for]:empty{display:none}.trap{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}.request-foot{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:18px}.request-foot .btn{cursor:pointer}.request-foot .btn[disabled]{opacity:.6;cursor:wait;transform:none}.request-note{flex:1;min-width:200px;margin:0;color:var(--muted);font-size:.8rem}[data-status]{grid-column:1/-1;margin:0;padding:16px 18px;border-left:2px solid var(--gold);background:#fff;font-size:.92rem}[data-status]:empty{display:none}[data-status][data-state=error]{border-color:var(--burg);color:var(--burg)}[data-status] a{color:inherit;font-weight:600;text-decoration:underline}
     .reveal{opacity:0;transform:translateY(28px);transition:opacity .9s cubic-bezier(.16,.8,.3,1),transform .9s cubic-bezier(.16,.8,.3,1)}.reveal.visible{opacity:1;transform:none}.reveal-group.visible .reveal-item{opacity:1;transform:none}.reveal-item{opacity:0;transform:translateY(28px);transition:opacity .8s cubic-bezier(.16,.8,.3,1),transform .8s cubic-bezier(.16,.8,.3,1)}.reveal-group.visible .reveal-item:nth-child(1){transition-delay:0s}.reveal-group.visible .reveal-item:nth-child(2){transition-delay:.09s}.reveal-group.visible .reveal-item:nth-child(3){transition-delay:.18s}.reveal-group.visible .reveal-item:nth-child(4){transition-delay:.27s}.reveal-group.visible .reveal-item:nth-child(5){transition-delay:.36s}.reveal-group.visible .reveal-item:nth-child(6){transition-delay:.45s}
     .room{overflow:hidden}.gallery-grid{position:relative}.gallery-grid img{position:relative}.about-photo,.morning-photo,.sauna-photo{overflow:hidden;background-size:cover!important}.room-photo,.moment,.gallery-grid img{transition:transform 1.1s cubic-bezier(.16,.8,.3,1)}.room:hover .room-photo,.moment:hover,.gallery-grid img:hover{transform:scale(1.045);z-index:1}
     @supports(background-attachment:fixed){@media(min-width:1001px) and (prefers-reduced-motion:no-preference){.location-story,.final{background-attachment:fixed}}}
     @media(max-width:1000px){.links,.nav>.phone,.nav>.btn,.menu{display:none}.about-grid,.boutique-grid,.morning-grid,.sauna-grid{grid-template-columns:1fr}.room-grid{grid-template-columns:1fr 1fr}.slow-grid,.for-grid{grid-template-columns:1fr 1fr}.adv-grid{grid-template-columns:1fr 1fr}.about-photo,.morning-photo,.sauna-photo{min-height:480px}.foot{grid-template-columns:1fr 1fr}.foot-brand{grid-column:span 2}}
     @media(max-width:680px){.wrap{width:min(var(--max),calc(100% - 28px))}.section{padding:76px 0}.hero{min-height:auto;padding:145px 0 34px}.hero h1{font-size:3.7rem}.hero-copy{font-size:1rem}.facts{grid-template-columns:1fr 1fr}.fact:nth-child(even){border-right:0}.about-grid{gap:45px}.about-photo{min-height:430px}.number-card{right:15px}.section-head{display:block}.section-head .btn{margin-top:20px}.room-grid,.detail-grid,.slow-grid,.for-grid,.adv-grid{grid-template-columns:1fr}.room-photo{height:280px}.detail-grid img{height:280px}.detail-grid img:last-child{margin:0}.morning-photo,.sauna-photo{min-height:360px}.moment{min-height:320px}.gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:220px 180px 180px}.gallery-grid img:first-child{grid-column:span 2;grid-row:auto}.gallery-grid img:nth-child(4){grid-column:span 2}.contact-grid{grid-template-columns:1fr}.map{height:300px}.mobile-cta{position:fixed;z-index:60;bottom:0;left:0;width:100%;display:grid;grid-template-columns:1fr 1fr;padding:8px;background:white;box-shadow:0 -4px 18px #0002}.mobile-cta .btn{min-height:46px;padding:0 8px}.mobile-cta .outline{color:var(--green)}body{padding-bottom:62px}}
     @media(max-width:400px){.facts{grid-template-columns:1fr 1fr}.fact{padding:16px 14px;font-size:.92em}.foot{grid-template-columns:1fr}.foot-brand{grid-column:auto}.adv-grid{grid-template-columns:1fr}.gallery-grid{grid-template-columns:1fr;grid-template-rows:auto}.gallery-grid img,.gallery-grid img:first-child,.gallery-grid img:nth-child(4){grid-column:auto;grid-row:auto;height:210px}}
+    @media(max-width:1000px){.request-grid{grid-template-columns:minmax(0,1fr);gap:40px}}
+    @media(max-width:680px){.request-form{grid-template-columns:minmax(0,1fr);padding:24px 18px}.request-phone{font-size:1.4rem}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal,.reveal-item{opacity:1;transform:none;transition:none}.btn{transition:none}.hero-media{transform:none!important}.room-photo,.about-photo,.morning-photo,.sauna-photo,.moment,.gallery-grid img{transition:none}}
   </style>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Hotel","name":"Готель «Гетьман»","url":"https://hetman-hotel.com/","telephone":"+380675882215","numberOfRooms":14,"address":{"@type":"PostalAddress","streetAddress":"площа Польський ринок, 8","addressLocality":"Кам’янець-Подільський","addressCountry":"UA"},"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"Breakfast","value":true},{"@type":"LocationFeatureSpecification","name":"Finnish sauna","value":true}]}</script>
@@ -53,17 +56,19 @@
     <section class="hero"><div class="hero-media"><video id="heroVideo" autoplay muted loop playsinline preload="auto" poster="https://hetman-hotel.com/wp-content/uploads/2023/10/A19I3041-scaled.jpg"><source src="hero-bg.mp4" type="video/mp4"></video></div><div class="wrap hero-inner"><p class="eyebrow">14 номерів · Кам’янець-Подільський</p><h1>Готель «Гетьман»</h1><p class="hero-copy">Камерний відпочинок на площі Польський ринок. Комфортні номери, сніданки та фінська сауна для неспішної подорожі до Кам’янця.</p><div class="actions"><a class="btn light" href="#rooms">Обрати номер</a><a class="btn outline" href="tel:+380675882215">Зателефонувати</a></div><p class="hero-location">площа Польський ринок, 8 · <a href="#contacts">Показати на карті →</a></p></div></section>
     <div class="facts-band"><div class="wrap facts"><div class="fact"><strong>14</strong><span>номерів</span></div><div class="fact"><strong>Сніданки</strong><span>ранок у готелі</span></div><div class="fact"><strong>Фінська сауна</strong><span>вечірній відпочинок</span></div><div class="fact"><strong>Польський ринок</strong><span>історична площа</span></div></div></div>
     <section class="section" id="about"><div class="wrap about-grid"><div class="about-photo reveal" role="img" aria-label="Інтер’єр готелю Гетьман"><div class="number-card"><b>14</b><span>номерів у готелі</span></div></div><div class="reveal"><p class="eyebrow">Менше номерів. Більше Кам’янця.</p><h2 class="title">Невеликий готель для неспішного міста</h2><p class="lead">Камерний формат створює інше відчуття подорожі: менше масштабу великого комплексу та більше затишку. На гостей чекають комфортні номери, сніданки й фінська сауна.</p><p class="history">Будівля готелю має 300-літню історію та зберігає атмосферу Старого Кам’янця.</p><a class="btn" href="#rooms">Переглянути номери</a></div></div></section>
-    <section class="section rooms" id="rooms"><div class="wrap"><div class="section-head reveal"><div><p class="eyebrow">Всього 14 номерів</p><h2 class="title">Камерність як перевага</h2><p class="lead">На офіційному сайті представлені стандартні, сімейні та люксові формати. Актуальну доступність і вартість перевіряйте під час бронювання.</p></div><a class="btn outline" href="https://hetman-hotel.com/#rooms" target="_blank" rel="noopener">Усі номери</a></div><div class="room-grid reveal-group"><article class="room reveal-item"><div class="room-photo"></div><div class="room-body"><h3>Стандарт</h3><p>З двоспальним або двома окремими ліжками.</p><a href="https://hetman-hotel.com/#rooms" target="_blank" rel="noopener">Переглянути →</a></div></article><article class="room reveal-item"><div class="room-photo"></div><div class="room-body"><h3>Сімейний</h3><p>Напівлюкс і люкс для подорожі разом.</p><a href="https://hetman-hotel.com/#rooms" target="_blank" rel="noopener">Переглянути →</a></div></article><article class="room reveal-item"><div class="room-photo"></div><div class="room-body"><h3>Люкс</h3><p>Двомісний або Гетьманський сімейний формат.</p><a href="https://hetman-hotel.com/#rooms" target="_blank" rel="noopener">Переглянути →</a></div></article></div></div></section>
+    <section class="section rooms" id="rooms"><div class="wrap"><div class="section-head reveal"><div><p class="eyebrow">Всього 14 номерів</p><h2 class="title">Камерність як перевага</h2><p class="lead">На офіційному сайті представлені стандартні, сімейні та люксові формати. Актуальну доступність і вартість перевіряйте під час бронювання.</p></div><div class="actions"><a class="btn" href="#stay-request">Залишити запит</a><a class="btn outline" href="https://hetman-hotel.com/#rooms" target="_blank" rel="noopener">Усі номери</a></div></div><div class="room-grid reveal-group"><article class="room reveal-item"><div class="room-photo"></div><div class="room-body"><h3>Стандарт</h3><p>З двоспальним або двома окремими ліжками.</p><a href="https://hetman-hotel.com/#rooms" target="_blank" rel="noopener">Переглянути →</a></div></article><article class="room reveal-item"><div class="room-photo"></div><div class="room-body"><h3>Сімейний</h3><p>Напівлюкс і люкс для подорожі разом.</p><a href="https://hetman-hotel.com/#rooms" target="_blank" rel="noopener">Переглянути →</a></div></article><article class="room reveal-item"><div class="room-photo"></div><div class="room-body"><h3>Люкс</h3><p>Двомісний або Гетьманський сімейний формат.</p><a href="https://hetman-hotel.com/#rooms" target="_blank" rel="noopener">Переглянути →</a></div></article></div></div></section>
+    <section class="section request" id="stay-request"><div class="wrap request-grid"><div class="reveal"><p class="eyebrow">Запит на проживання</p><h2 class="title">Залиште номер, ми передзвонимо</h2><p class="lead">Вкажіть телефон і, за бажанням, дати поїздки. Адміністратор зателефонує, щоб підтвердити вільний номер і вартість.</p><a class="request-phone" href="tel:+380675882215">+38 067 588 22 15</a></div><form class="request-form reveal" data-hotelos data-form-name="Запит на проживання" novalidate><label class="field full">Телефон<small>Обов’язково, щоб ми могли передзвонити</small><input name="phone" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="stay-phone-error"><span id="stay-phone-error" data-error-for="phone"></span></label><label class="field">Ім’я<input name="name" type="text" autocomplete="name" maxlength="200"></label><label class="field">Гостей<input name="guests" type="number" min="1" max="50" inputmode="numeric"></label><label class="field">Дата заїзду<input name="checkIn" type="date"></label><label class="field">Дата виїзду<input name="checkOut" type="date" aria-describedby="stay-checkout-error"><span id="stay-checkout-error" data-error-for="checkOut"></span></label><label class="field">Тип номера<select name="roomType"><option value="">Ще не вирішили</option><option>Стандарт</option><option>Сімейний</option><option>Люкс</option></select></label><label class="field full">Побажання<textarea name="message" maxlength="5000"></textarea></label><label class="trap" aria-hidden="true">Не заповнюйте<input name="website" type="text" tabindex="-1" autocomplete="off"></label><div class="request-foot"><button class="btn" type="submit">Надіслати запит</button><p class="request-note">Номер використаємо лише для відповіді на цей запит.</p></div><p data-status role="status" aria-live="polite"></p></form></div></section>
     <section class="section boutique"><div class="wrap boutique-grid"><div class="reveal"><p class="eyebrow">Камерна атмосфера</p><h2 class="title">14 номерів, і в цьому є свій комфорт</h2><p class="lead">Не кожній подорожі потрібен великий готель. Іноді хочеться повернутися після прогулянки у невелике спокійне місце та продовжити відпочинок без зайвої метушні.</p></div><div class="detail-grid reveal"><img src="https://hetman-hotel.com/wp-content/uploads/2023/10/A19I2814-scaled.jpg" alt="Деталь інтер’єру Гетьмана" loading="lazy"><img src="https://hetman-hotel.com/wp-content/uploads/2023/10/A19I2861-scaled.jpg" alt="Атмосфера готелю Гетьман" loading="lazy"></div></div></section>
     <section class="section" id="breakfast"><div class="wrap morning-grid"><div class="morning-photo reveal" role="img" aria-label="Ранкова атмосфера готелю"></div><div class="reveal"><p class="eyebrow">Ранок</p><h2 class="title">Почніть ранок зі сніданку</h2><p class="lead">У готелі працює ресторан сніданків. П’ять варіантів меню дозволяють почати день без поспіху, а вже потім вирушити на прогулянку Кам’янцем.</p><div class="morning-list"><span>Сніданки для гостей</span><span>П’ять варіантів меню</span><span>Ресторан працює у ранковому форматі</span></div><a class="btn" href="https://hetman-hotel.com/our-event/breakfast/" target="_blank" rel="noopener">Дізнатися про сніданки</a></div></div></section>
-    <section class="section sauna" id="sauna"><div class="wrap sauna-grid"><div class="reveal"><p class="eyebrow">Відпочинок</p><h2 class="title">Фінська сауна</h2><p class="lead">Після прогулянки Кам’янцем змініть ритм і присвятіть час відпочинку. У готелі доступна фінська сауна; актуальні умови бронювання уточнюйте напряму.</p><br><a class="btn light" href="tel:+380675882215">Забронювати сауну</a></div><div class="sauna-photo reveal" role="img" aria-label="Відпочинок у готелі Гетьман"></div></div></section>
+    <section class="section sauna" id="sauna"><div class="wrap sauna-grid"><div class="reveal"><p class="eyebrow">Відпочинок</p><h2 class="title">Фінська сауна</h2><p class="lead">Після прогулянки Кам’янцем змініть ритм і присвятіть час відпочинку. У готелі доступна фінська сауна; актуальні умови бронювання уточнюйте напряму.</p><br><div class="actions"><a class="btn light" href="#sauna-request">Забронювати сауну</a><a class="btn outline" href="tel:+380675882215">Зателефонувати</a></div></div><div class="sauna-photo reveal" role="img" aria-label="Відпочинок у готелі Гетьман"></div></div></section>
+    <section class="section request alt" id="sauna-request"><div class="wrap request-grid"><div class="reveal"><p class="eyebrow">Фінська сауна</p><h2 class="title">Забронюйте вечір у сауні</h2><p class="lead">Оберіть день, час і кількість людей. Ми передзвонимо, щоб підтвердити бронювання й розповісти про умови.</p><a class="request-phone" href="tel:+380675882215">+38 067 588 22 15</a></div><form class="request-form reveal" data-hotelos data-form-name="Бронювання сауни" novalidate><label class="field full">Телефон<small>Обов’язково, щоб ми могли передзвонити</small><input name="phone" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="sauna-phone-error"><span id="sauna-phone-error" data-error-for="phone"></span></label><label class="field">Ім’я<input name="name" type="text" autocomplete="name" maxlength="200"></label><label class="field">Людей<input name="guests" type="number" min="1" max="50" inputmode="numeric"></label><label class="field">Дата<input name="date" type="date"></label><label class="field">Час<input name="time" type="time"></label><label class="field full">Побажання<textarea name="message" maxlength="5000"></textarea></label><label class="trap" aria-hidden="true">Не заповнюйте<input name="website" type="text" tabindex="-1" autocomplete="off"></label><div class="request-foot"><button class="btn" type="submit">Надіслати запит</button><p class="request-note">Номер використаємо лише для відповіді на цей запит.</p></div><p data-status role="status" aria-live="polite"></p></form></div></section>
     <section class="location-story"><div class="wrap location-copy reveal"><p class="eyebrow">Кам’янець-Подільський</p><h2 class="title">Ваш Кам’янець починається з Польського ринку</h2><p class="lead">Виходьте на прогулянку, досліджуйте історичне місто й повертайтеся до камерного готелю на відпочинок.</p><br><a class="btn light" href="https://www.google.com/maps/search/?api=1&amp;query=%D0%93%D0%BE%D1%82%D0%B5%D0%BB%D1%8C+%C2%AB%D0%93%D0%B5%D1%82%D1%8C%D0%BC%D0%B0%D0%BD%C2%BB%2C+%D0%BF%D0%BB%D0%BE%D1%89%D0%B0+%D0%9F%D0%BE%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D1%80%D0%B8%D0%BD%D0%BE%D0%BA%2C+8" target="_blank" rel="noopener">Відкрити карту</a></div></section>
     <section class="section slow"><div class="wrap"><p class="eyebrow">Повільні подорожі</p><h2 class="title">Не поспішайте</h2><p class="lead">Кам’янець найкраще відкривати поступово. Залиште місце для простих моментів протягом дня.</p><div class="slow-grid reveal-group"><div class="moment reveal-item"><span>Ранок</span></div><div class="moment reveal-item"><span>Місто</span></div><div class="moment reveal-item"><span>Відпочинок</span></div><div class="moment reveal-item"><span>Вечір</span></div></div></div></section>
     <section class="section"><div class="wrap"><p class="eyebrow">Ваш формат</p><h2 class="title">Для вашої подорожі</h2><div class="for-grid reveal-group"><article class="for-card reveal-item"><h3>Вихідні удвох</h3><p>Камерний готель, місто та спокійний відпочинок.</p></article><article class="for-card reveal-item"><h3>Туристична подорож</h3><p>Затишна база для знайомства з Кам’янцем.</p></article><article class="for-card reveal-item"><h3>Кілька спокійних днів</h3><p>Сніданки, прогулянки та фінська сауна.</p></article><article class="for-card reveal-item"><h3>Невелика компанія</h3><p>Номерний фонд для камерного формату проживання.</p></article></div></div></section>
     <section class="section advantages"><div class="wrap"><p class="eyebrow">Головне просто</p><h2 class="title">Усе для спокійної подорожі</h2><div class="adv-grid reveal-group"><div class="adv reveal-item"><i>01</i><h3>14 номерів</h3><p>Невеликий формат готелю.</p></div><div class="adv reveal-item"><i>02</i><h3>Номери для двох</h3><p>Комфортний формат для подорожі удвох.</p></div><div class="adv reveal-item"><i>03</i><h3>Сніданки</h3><p>Ранок починається безпосередньо в готелі.</p></div><div class="adv reveal-item"><i>04</i><h3>Фінська сауна</h3><p>Відпочинок після активного дня.</p></div><div class="adv reveal-item"><i>05</i><h3>Польський ринок</h3><p>Адреса готелю: площа Польський ринок, 8.</p></div><div class="adv reveal-item"><i>06</i><h3>Прямий контакт</h3><p>Зв’яжіться з готелем безпосередньо.</p></div></div></div></section>
     <section class="section gallery" id="gallery"><div class="wrap"><p class="eyebrow">Галерея</p><h2 class="title">Атмосфера «Гетьмана»</h2><div class="gallery-grid reveal-group"><img class="reveal-item" src="https://hetman-hotel.com/wp-content/uploads/2023/10/A19I3041-scaled.jpg" alt="Готель Гетьман" loading="lazy"><img class="reveal-item" src="https://hetman-hotel.com/wp-content/uploads/2023/10/A19I2861-scaled.jpg" alt="Інтер’єр готелю" loading="lazy"><img class="reveal-item" src="https://hetman-hotel.com/wp-content/uploads/2023/10/A19I2814-scaled.jpg" alt="Номер готелю" loading="lazy"><img class="reveal-item" src="https://hetman-hotel.com/wp-content/uploads/2023/04/A19I2653-scaled.jpg" alt="Атмосфера номера" loading="lazy"></div></div></section>
     <section class="section" id="contacts"><div class="wrap contact-grid"><div class="map"><iframe src="https://www.google.com/maps?q=%D0%93%D0%BE%D1%82%D0%B5%D0%BB%D1%8C+%C2%AB%D0%93%D0%B5%D1%82%D1%8C%D0%BC%D0%B0%D0%BD%C2%BB%2C+%D0%BF%D0%BB%D0%BE%D1%89%D0%B0+%D0%9F%D0%BE%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D1%80%D0%B8%D0%BD%D0%BE%D0%BA%2C+8&output=embed" width="100%" height="100%" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Готель «Гетьман» на карті"></iframe></div><div class="contact"><p class="eyebrow">Контакти</p><h2 class="title" style="font-size:3.4rem">Готель «Гетьман»</h2><address>площа Польський ринок, 8<br>Кам’янець-Подільський</address><a href="tel:+380675882215">+38 067 588 22 15</a><a href="https://hetman-hotel.com/" target="_blank" rel="noopener">hetman-hotel.com</a><br><div class="actions"><a class="btn" href="tel:+380675882215">Зателефонувати</a><a class="btn outline" href="https://www.google.com/maps/search/?api=1&amp;query=%D0%93%D0%BE%D1%82%D0%B5%D0%BB%D1%8C+%C2%AB%D0%93%D0%B5%D1%82%D1%8C%D0%BC%D0%B0%D0%BD%C2%BB%2C+%D0%BF%D0%BB%D0%BE%D1%89%D0%B0+%D0%9F%D0%BE%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D1%80%D0%B8%D0%BD%D0%BE%D0%BA%2C+8" target="_blank" rel="noopener">Прокласти маршрут</a></div></div></div></section>
-    <section class="final"><div class="wrap reveal"><p class="eyebrow">Ще один день у місті</p><h2 class="title">Залиште ще один день для Кам’янця</h2><p class="lead">14 номерів, сніданки та фінська сауна у невеликому готелі на площі Польський ринок.</p><div class="actions"><a class="btn light" href="https://hetman-hotel.com/" target="_blank" rel="noopener">Забронювати номер</a><a class="btn outline" href="tel:+380675882215">+38 067 588 22 15</a></div><small>14 номерів · сніданки · фінська сауна</small></div></section>
+    <section class="final"><div class="wrap reveal"><p class="eyebrow">Ще один день у місті</p><h2 class="title">Залиште ще один день для Кам’янця</h2><p class="lead">14 номерів, сніданки та фінська сауна у невеликому готелі на площі Польський ринок.</p><div class="actions"><a class="btn light" href="https://hetman-hotel.com/" target="_blank" rel="noopener">Забронювати номер</a><a class="btn outline" href="#stay-request">Залишити запит</a><a class="btn outline" href="tel:+380675882215">+38 067 588 22 15</a></div><small>14 номерів · сніданки · фінська сауна</small></div></section>
   </main>
   <footer><div class="wrap"><div class="foot"><div class="foot-brand"><a class="logo" href="#top"><b>ГЕТЬМАН</b><small>ГОТЕЛЬ · КАМ’ЯНЕЦЬ</small></a><p>Ваш камерний готель<br>на Польському ринку.</p></div><div><h4>Готель</h4><a href="#about">Про нас</a><a href="#rooms">Номери</a><a href="#gallery">Галерея</a></div><div><h4>Відпочинок</h4><a href="#breakfast">Сніданки</a><a href="#sauna">Фінська сауна</a></div><div><h4>Кам’янець</h4><a href="#contacts">Локація</a><a href="#contacts">Карта</a></div><div><h4>Контакти</h4><a href="tel:+380675882215">Телефон</a><a href="https://hetman-hotel.com/" target="_blank" rel="noopener">Офіційний сайт</a></div></div><div class="copyright">© Готель «Гетьман» · Актуальність цін і доступності перевіряйте на офіційному сайті.</div></div></footer>
   <div class="mobile-cta"><a class="btn outline" href="tel:+380675882215">Зателефонувати</a><a class="btn" href="https://hetman-hotel.com/" target="_blank" rel="noopener">Забронювати</a></div>
@@ -85,5 +90,152 @@
       }
     }
   </script>
+<script type="module">
+// HotelOS site forms. Paste this whole block into the site's index.html as an inline module
+// script right before the closing body tag, and set the three constants below. Never put a
+// literal closing script tag inside this file: it would end the inline script early.
+// Contract (hotelos.webart.work/CRM.md → Submission data contract, firestore.rules):
+// - every form is <form data-hotelos data-form-name="…" novalidate> inside a <section id="{formId}">;
+//   the section id IS the formId (stable slug, e.g. stay-request, sauna-request) and the CRM
+//   links to SITE + '#' + formId, so the link scrolls to the start of that section;
+// - fields are matched by name: phone (required), name, email, message, checkIn, checkOut, guests,
+//   roomType, date, time, service; a [data-genders] box renders one select per guest (hostels);
+// - errors go to [data-error-for="<name>"], the result to [data-status]; `website` is a honeypot.
+const HOTEL_ID = 'kp-hetman'; // Firestore hotels/{id}: 'kp-' + site folder name
+const SITE = 'https://hetman.webart.work/'; // from the site's CNAME
+const PHONE = '+38 067 588 22 15'; // shown when sending fails
+
+const FIREBASE = {
+	apiKey: 'AIzaSyBeSB5EuC4BBSpmCGA3Pjk7dD_JV2SdcSQ',
+	authDomain: 'hotel-upwork.firebaseapp.com',
+	projectId: 'hotel-upwork',
+	appId: '1:40129364672:web:c9659550ebf0f1d8a36325',
+};
+const SDK = 'https://www.gstatic.com/firebasejs/12.19.0/';
+const TEXT_FIELDS = ['name', 'email', 'message', 'checkIn', 'checkOut', 'date', 'time', 'roomType', 'service'];
+const today = new Date(Date.now() - new Date().getTimezoneOffset() * 6e4).toISOString().slice(0, 10);
+
+let db;
+async function firestore() {
+	if (db) return db;
+	// Loaded on first submit only, so the page itself stays light.
+	const [{ initializeApp }, lite] = await Promise.all([import(SDK + 'firebase-app.js'), import(SDK + 'firebase-firestore-lite.js')]);
+	db = { lite, store: lite.getFirestore(initializeApp(FIREBASE)) };
+	return db;
+}
+
+function setup(form) {
+	const formId = form.closest('section[id]')?.id;
+	if (!formId) return console.error('HotelOS form needs a parent <section id="formId">', form);
+	const field = (name) => form.elements.namedItem(name);
+	const statusEl = form.querySelector('[data-status]');
+	const submit = form.querySelector('[type=submit]');
+	const submitLabel = submit.textContent;
+	const gendersBox = form.querySelector('[data-genders]');
+
+	for (const name of ['checkIn', 'checkOut', 'date']) if (field(name)) field(name).min = today;
+	if (field('checkIn') && field('checkOut')) {
+		field('checkIn').addEventListener('change', () => {
+			const checkIn = field('checkIn').value;
+			field('checkOut').min = checkIn || today;
+			if (field('checkOut').value && field('checkOut').value <= checkIn) field('checkOut').value = '';
+		});
+	}
+
+	// Hostels: one gender select per guest, kept in sync with the guests count.
+	function renderGenders() {
+		if (!gendersBox) return;
+		const count = Math.min(Math.max(parseInt(field('guests')?.value, 10) || 1, 1), 20);
+		const current = [...gendersBox.querySelectorAll('select')].map((select) => select.value);
+		gendersBox.replaceChildren(
+			...Array.from({ length: count }, (_, i) => {
+				const label = document.createElement('label');
+				label.textContent = `Гість ${i + 1}`;
+				const select = document.createElement('select');
+				select.name = 'gender';
+				select.required = true;
+				select.innerHTML = '<option value="">Стать</option><option value="female">Жінка</option><option value="male">Чоловік</option>';
+				select.value = current[i] ?? '';
+				label.append(select);
+				return label;
+			}),
+		);
+	}
+	if (gendersBox) {
+		field('guests')?.addEventListener('input', renderGenders);
+		renderGenders();
+	}
+
+	function setError(name, text) {
+		const input = field(name);
+		if (input instanceof Element) input.setAttribute('aria-invalid', text ? 'true' : 'false');
+		const slot = form.querySelector(`[data-error-for="${name}"]`);
+		if (slot) slot.textContent = text;
+	}
+
+	function showStatus(state, html) {
+		statusEl.dataset.state = state;
+		statusEl.innerHTML = html;
+	}
+
+	form.addEventListener('submit', async (event) => {
+		event.preventDefault();
+		showStatus('', '');
+		const phone = field('phone').value.trim();
+		const digits = phone.replace(/\D/g, '');
+		setError('phone', digits.length < 9 || digits.length > 15 ? 'Вкажіть номер телефону, щоб ми могли передзвонити.' : '');
+		if (field('checkIn') && field('checkOut')) {
+			const { value: checkIn } = field('checkIn');
+			const { value: checkOut } = field('checkOut');
+			setError('checkOut', checkIn && checkOut && checkOut <= checkIn ? 'Дата виїзду має бути пізніше за дату заїзду.' : '');
+		}
+		const genderSelects = gendersBox ? [...gendersBox.querySelectorAll('select')] : [];
+		if (gendersBox) {
+			const missing = genderSelects.some((select) => !select.value);
+			for (const select of genderSelects) select.setAttribute('aria-invalid', missing && !select.value ? 'true' : 'false');
+			const slot = form.querySelector('[data-error-for="genders"]');
+			if (slot) slot.textContent = missing ? 'Вкажіть стать кожного гостя, щоб ми підібрали місця.' : '';
+		}
+		const invalid = form.querySelector('[aria-invalid=true]');
+		if (invalid) return invalid.focus();
+
+		const thanks = `Дякуємо! Ми зателефонуємо на ${phone.replace(/</g, '')} найближчим часом.`;
+		// Bots fill the hidden field: pretend success, send nothing.
+		if (field('website')?.value) {
+			form.reset();
+			renderGenders();
+			return showStatus('ok', thanks);
+		}
+
+		const lead = { phone, formId, formName: form.dataset.formName, site: SITE, hotelId: HOTEL_ID };
+		for (const name of TEXT_FIELDS) {
+			const value = field(name)?.value?.trim();
+			if (value) lead[name] = value;
+		}
+		const guests = parseInt(field('guests')?.value, 10);
+		if (guests >= 1 && guests <= 50) lead.guests = guests;
+		if (genderSelects.length) lead.genders = genderSelects.map((select) => select.value);
+
+		submit.disabled = true;
+		submit.textContent = 'Надсилаємо…';
+		try {
+			const { lite, store } = await firestore();
+			await lite.addDoc(lite.collection(store, 'submissions'), { ...lead, status: 'new', history: [], createdAt: lite.serverTimestamp() });
+			form.reset();
+			if (field('checkOut')) field('checkOut').min = today;
+			renderGenders();
+			showStatus('ok', thanks);
+		} catch (error) {
+			console.error(error);
+			showStatus('error', `Не вдалося надіслати запит. Зателефонуйте нам: <a href="tel:${PHONE.replace(/[^\d+]/g, '')}">${PHONE}</a>.`);
+		} finally {
+			submit.disabled = false;
+			submit.textContent = submitLabel;
+		}
+	});
+}
+
+document.querySelectorAll('form[data-hotelos]').forEach(setup);
+</script>
 </body>
 </html>
